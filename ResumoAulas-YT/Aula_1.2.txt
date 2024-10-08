@@ -1,0 +1,20 @@
+linguística:
+    + Aréa da ciência que estuda a linguagem;
+
+    + Subáreas Tradicionais:
+        ++ Fonética e Fonologia: Estudo dos sons das línguas;
+        ++ Morfologia: Estudo das unidades linguísticas;
+        ++ Sintaxe: Estudo das regras que ordenam as unidades linguísticas;
+        ++ Semântica: Estudo dos significados;
+        ++ Pragmática: Estudo da influência do contexto na linguagem;
+
+Linguística Computacional:
+    + Estudo da Linguagem sob uma perspectiva computacional;
+    + Visa prover modelos computacionais, baseado em regras ou data-driven, 
+    para processar a linguagem;
+    + Esses modelos são implementados para:
+        ++ Atividades Fim:
+            > Prover uma explicação para um fenômeno linguístico ou psicolinguíestico;
+        ++ PLN:
+            > Atividades meio que visam desenvolver uma aplicação computacional de 
+            processamento de língua;

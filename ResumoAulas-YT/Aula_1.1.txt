@@ -1,0 +1,19 @@
+Linguagem: 
+    + Sistema de símbolos, escritos e sonoros, que representam conceitos/significados;
+    + Ato social e co-dependente;
+    -- Ferdinand de Saussure
+
+    + Distribucionalismo:
+        ++ procedimento que visa entender os fenômenos da língua a partir
+        da observação dos símbolos linguísticos e suas relações;
+        ++ Base da linguística computacional;
+        -- Leonard Bloomfield
+
+    + Sistema de símbolos de um vocabulário que, quando colocados numa 
+    determinada ordem e expressados num determinado contexto, emitem um
+    significado;
+
+    => SÍMBOLOS DE UM VOCABULÁRIO;
+    => ORDEM;
+    => CONTEXTO;
+    => SIGNIFICADO;
