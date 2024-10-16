@@ -1,0 +1,80 @@
+Gramáticas Formais:
+    + Criadas para definir parte ou todas as regras de uma Linguagem natural ou artificial;
+    
+    + Hierarquia de Chomsky:
+        + QUANTO MAIS RESTRITA, MENOS COMPLEXA;
+        + Gramática Regular --> Gramática Livre de Contexto --> Gramática Sensivel ao Contexto --> Gramática Irrestrita;
+
+    + Expressões Regulares:
+        + Sequência de caracteres que define um padrão de busca:
+        + RESUMO:
+            + 1. Metacaracteres Básicos
+                Esses caracteres têm funções especiais em regex:
+
+                .: Corresponde a qualquer caractere, exceto uma nova linha.
+                \: Escapa metacaracteres (ex.: \. corresponde ao ponto literal).
+                []: Classe de caracteres, corresponde a qualquer caractere dentro (ex.: [abc] corresponde a "a", "b" ou "c").
+                ^: Dentro de uma classe de caracteres, inverte a correspondência (ex.: [^abc] corresponde a qualquer coisa exceto "a", "b", ou "c").
+            + 2. Âncoras
+                As âncoras especificam a posição na string onde a correspondência deve ocorrer:
+
+                ^: Início da string (ex.: ^abc encontra "abc" no início).
+                $: Fim da string (ex.: abc$ encontra "abc" no fim).
+                \b: Limite de palavra (ex.: \babc\b encontra "abc" isolado).
+                \B: Não-limite de palavra.
+            + 3. Quantificadores
+                Quantificadores especificam o número de repetições de um padrão:
+
+                *: Zero ou mais (ex.: a* corresponde a "a", "aa", ou nada).
+                +: Um ou mais (ex.: a+ corresponde a "a", "aa", mas não vazio).
+                ?: Zero ou um (ex.: a? corresponde a "a" ou nada).
+                {n}: Exatamente n repetições (ex.: a{3} corresponde a "aaa").
+                {n,}: Pelo menos n repetições (ex.: a{2,} corresponde a "aa", "aaa", etc.).
+                {n,m}: Entre n e m repetições (ex.: a{2,4} corresponde a "aa", "aaa", ou "aaaa").
+            + 4. Grupos e Alternância
+                Grupos permitem agrupar partes da regex, e alternância define várias opções:
+
+                (): Define um grupo (ex.: (abc) trata "abc" como uma unidade).
+                |: Alternância (ex.: a|b corresponde a "a" ou "b").
+                (?:...): Grupo não capturante (não armazena o valor correspondente).
+            + 5. Classes de Caracteres Pré-Definidas
+                Conjuntos de caracteres frequentemente usados:
+
+                \d: Qualquer dígito (equivale a [0-9]).
+                \D: Qualquer caractere que não seja dígito.
+                \w: Qualquer caractere de palavra (equivale a [a-zA-Z0-9_]).
+                \W: Qualquer caractere que não seja de palavra.
+                \s: Qualquer espaço em branco (inclui espaços, tabs, etc.).
+                \S: Qualquer caractere que não seja espaço em branco.
+            + 6. Classes de Caracteres Personalizadas
+                Podem ser usadas para criar grupos específicos de caracteres:
+
+                [abc]: Corresponde a "a", "b", ou "c".
+                [^abc]: Corresponde a qualquer coisa exceto "a", "b", ou "c".
+                [a-z]: Corresponde a qualquer letra minúscula.
+                [A-Z]: Corresponde a qualquer letra maiúscula.
+                [0-9]: Corresponde a qualquer dígito.
+            + 7. Retrovisores e Referências Futuras
+                Referências a grupos previamente ou posteriormente correspondidos:
+
+                \1, \2, etc.: Retrovisor, refere-se a correspondências de grupos anteriores (ex.: (a)(b)\1\2 corresponde a "ab" seguido de "ab").
+                (?=...): Lookahead positivo, corresponde a uma posição seguida de um padrão específico (ex.: a(?=b) corresponde a "a" seguido de "b", sem incluir "b").
+                (?!...): Lookahead negativo, corresponde a uma posição que não é seguida por um padrão específico.
+                (?<=...): Lookbehind positivo, verifica se há um padrão antes da posição atual.
+                (?<!...): Lookbehind negativo, verifica se não há um padrão antes da posição atual.
+            + 8. Modificadores (Flags)
+                Modificadores alteram o comportamento global da regex:
+
+                i: Ignora maiúsculas/minúsculas.
+                g: Procura globalmente (encontra todas as ocorrências, não apenas a primeira).
+                m: Modo multilinhas (faz com que ^ e $ correspondam ao início/fim de cada linha).
+                s: Faz com que . corresponda a qualquer caractere, incluindo quebras de linha.
+                u: Trata o padrão como Unicode.
+            + 9. Outros Caracteres Especiais
+                \n: Nova linha.
+                \t: Tab.
+                \r: Retorno de carro.
+                \f: Alimentação de formulário.
+                \v: Tabulação vertical.
+                #: Comentário (em alguns contextos, como em regex avançado).
+
