@@ -1,0 +1,46 @@
+1) NLP:
+        Mesclagem de ciência da computação, Inteligência Artificial e Linguística, 
+    se dedicando à geração e compreensão automática da linguagem natural.
+
+        NLP é uma área da ciência da computação que estuda o desenvolvimento de 
+    programas computacionais que analisam, reconhecem e/ou geram textos em linguagens
+    humanas, ou naturais.
+
+    DIFICULDADES EM NLP:
+        + Ambiguidade da linguagem natural;
+        + Variações temporais/regionais na linguagem;
+        + O NLP desafia as máquinas à lidar com a Ambiguidade, a gramática, o contexto
+        e a riqueza semântica da linguagem humana, sendo uma área de pesquisa em 
+        constante evolução;
+
+2) OBJETIVOS DA NLP:
+    + Entendimento da linguagem humana;
+    + Greação de linguagem humana;
+    + Processamento de linguagem humana;
+
+3) FUNCIONAMENTO DO NLP:
+    + Pré-Processamento:
+        +    São feitas preparações como a remoção de pontuações, transformações das 
+        maiúsculas em minúsculas para a padronização e remoção das palavras desnecessárias , 
+        como artigos e preposições, também chamados de STOP WORDS.
+
+        +    TOKENIZAÇÃO: O contexto é dividido em unidades menores (TOKENS), que podem 
+        ser palavras, frases ou subpalavras. Isso facilita a análise e a compreensão do texto.
+
+        +   POSTERIORMENTE: Análises morfológicas, sintáticas pu semânticas. 
+
+4) Os 3 NÍVEIS DE RECONHECIMENTO EM NLP:
+    + ANÁLISE MRFOLÓGICA: As palavras são examinadas para identificar sua forma básica (lematização) e 
+    suas características gramaticais como a parte do discurso, gênero, número, tempo verbal, etc.
+
+    + ANÁLISE SINTÁTICA: A estrutura gramatical é utilizada para entender o relacionamento entre as 
+    palavras e a organização das frases.
+
+    + ANÁLISE SEMÂNTICA: A ideia é tentar compreender o significado das palavras e frases, além do 
+    contexto  em que elas são utilizadas.
+
+    ETAPA DE DESAMBIGUAÇÃO: 
+        + O objetivo é tentar resolver as ambiguidades e determinar o significado mais apropriado com base 
+        no contexto. Assim, podemos realizar a extração de informações específicas, como o nome de pessoas,
+        datas, localizações, eventos importantes, etc.
+
