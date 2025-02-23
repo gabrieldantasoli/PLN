@@ -1,0 +1,22 @@
++ Definições de conceitos chave:
+
+++ TOKEN:
+
+++ TOKENIZAÇÃO:
+
+++ LEMATIZAÇÃO:
+
+++ STEEMING:
+
+++ BAG OF WORDS:
+
+++ STOP WORDS:
+    > As stopwords são palavras que aparecem com muita frequência em textos, mas que, por si só, 
+    não carregam muito significado ou valor para a compreensão de seu conteúdo. Essas palavras 
+    possuem baixo valor semântico, o que significa que, mesmo aparecendo repetidamente, elas não
+    contribuem de maneira significativa para o entendimento do tema central de um texto. 
+    Exemplos comuns de stopwords são preposições, artigos, pronomes e conjunções, como 
+    "de", "a", "o", "é", entre outros. Elas geralmente não ajudam a distinguir o sentido ou 
+    contexto do texto e, por isso, no Processamento de Linguagem Natural, são muitas vezes
+    removidas para simplificar a análise.
+
