@@ -1,0 +1,24 @@
+Apesar do BAG OF WORDS  converter dadoss textuais em dados numéricos que pudessem ser usados pelos modelos de machine learning, essa técnica tem suas limitações.
+
+O BAG OF WORDS  ignora a ordem das palavras e trata todas elas como igualmente importantes, o que pode fazer com que nuances do texto sejam perdidos.
+
+    Para superar essas limitações e trazer mais contexto para a análise de texto, introduzimos duas técnicas mais avançadas: TF-IDF e N-Grams. Ambas são fundamentais
+para melhorar a compreensão do contexto, capturandoo informações importantes que o BAG OF WORDS deixa de lado.
+
+TF-IDF: (Term Frequency - Inverse Document Frequency)
+    + Pondera as palavras com base em sua relevância;
+    + Em vez de simplesmente contar quantas vezzes uma palavra aparece em um documento, o TF-IDF também leva em consideração o quão comum/rara essa palavra é em todoS
+    os documentos do conjunto de dados;
+    --> TF (Frequência do termo): 
+        + Quantas vezes uma palavra específica aparece em um documento, em relação ao total de palavras;
+        + TF(ótimo) = 3/100 =0.03
+    --> IDF (Frequência inversa nos documentos):
+        + Seve para dar mais peso às palavras que aparecem em poucos documentos e menos peso às que aparecem em muitos;
+        + IDF(ótimo) = log(1000/(10 + 1)) = log(1000/11) ≈ 1,96
+    + TF-IDF(ótimo) = TF*IDF = 0.03  *  1,96 = 0.059
+
+N-GRAMS:
+    + Técnica que complementa p TF-IDF;
+    + Capturam grupos de palavras consecutivas - O que nos permite entender melhor o CONTEXTO E A RELAÇÂO entre eleas;
+    + UNIGRAMS, BIGRAMAS, TRIGRAMAS, ...
+    + 
