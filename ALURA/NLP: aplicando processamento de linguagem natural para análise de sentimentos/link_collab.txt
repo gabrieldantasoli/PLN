@@ -1,1 +1,5 @@
-https://colab.research.google.com/drive/1BDxpyUZI8RTJ0XUed4L7MkgfIKD8Dun7?usp=sharing
+SENTIMENT ANALYSIS COLLAB EVOLUTION:
+
+VERSÃO 1: https://colab.research.google.com/drive/1BDxpyUZI8RTJ0XUed4L7MkgfIKD8Dun7?usp=sharing
+VERSÃO 2: https://colab.research.google.com/drive/1t3Szui6LRetBF3bPabLrBHI4d5UhgJrl?usp=sharing
+VERSÃO 3: COMING SOON
