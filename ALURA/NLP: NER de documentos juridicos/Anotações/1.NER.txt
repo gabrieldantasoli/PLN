@@ -1,0 +1,21 @@
+O Reconhecimento de Entidades Nomeadas (NER, do inglês Named Entity Recognition):
+    + Técnica de processamento de linguagem natural (NLP) que identifica e classifica automaticamente informações específicas dentro de um texto;
+    + Essas informações são chamadas de entidades e geralmente correspondem a nmes de pessoas, locais, organizações, daas,quantidades...
+
+Etapas do NER:
+    1) Detecção de entidades: 
+        + Encontrar palavras ou grupos de palavras que representam possíveis entidades.
+    2) Classificação de entidades:
+        + Após identificar os candidatos, o NER classifica cada entidade em categorias predefinidas.Pode ser feito usando técnicas de Aprendizado de máquina.
+
+
+Principais Aplicações do NER
+    1. Motores de Busca
+
+    2. Análise de Sentimento e Monitoramento de Mídias Sociais
+ 
+    3. Sistemas de Atendimento ao Cliente
+   
+    4. Extração de Informações Médicas
+    
+    5. Análise de Documentos Legais
